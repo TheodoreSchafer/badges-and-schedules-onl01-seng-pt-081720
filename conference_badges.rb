@@ -7,6 +7,7 @@ def batch_badge_creator(attendees)
  arr = []
  attendees.each do |badge_maker|
  return arr
+ end
 
 
 end
