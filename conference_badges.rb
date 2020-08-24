@@ -7,10 +7,13 @@ def batch_badge_creator(attendees)
   # "Hello, my name is #{name}."
   badge_maker(name)
  end
-
 end
 
-def assign_rooms
+def assign_rooms(attendees)
+  attendees.each_with_index.map do |name, index|
+
+  end
+
 end
 
 def printer
