@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(attendees)
  arr = []
- attendees.each do |name| << "Hello, my name is #{name}."
+ attendees.each do |name| << badge_maker
 
    # add the above phrase to the arr
  end
